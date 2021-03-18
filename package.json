@@ -1,0 +1,26 @@
+{
+  "name": "publicmint-web3-scripts",
+  "version": "1.0.0",
+  "description": "Scripts using only web3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=14 <15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helderjnpinto/publicmint-web3-scripts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helderjnpinto/publicmint-web3-scripts/issues"
+  },
+  "homepage": "https://github.com/helderjnpinto/publicmint-web3-scripts#readme",
+  "dependencies": {
+    "web3": "^1.3.4"
+  }
+}
