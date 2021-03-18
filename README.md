@@ -16,4 +16,11 @@ node ./src/getBalanceERC20.js
 
 ### Native transfer
 
+> ! update hardcoded pk and respective address in tranfer.js file
+
+```js
+const privateKey = '0x0'
+const fromAddress = '0x0' 
+```
+
 node ./src/transfer.js
