@@ -24,3 +24,8 @@ const fromAddress = '0x0'
 ```
 
 node ./src/transfer.js
+
+### Public mint intrinsic gas
+
+The minimum amount of gas in normal ethereum network is 21000 in public mint is 25000
+If you use metamask you need to change default values.
