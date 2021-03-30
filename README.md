@@ -29,3 +29,4 @@ node ./src/transfer.js
 
 The minimum amount of gas in normal ethereum network is 21000 in public mint is 25000
 If you use metamask you need to change default values.
+e

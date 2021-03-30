@@ -1,10 +1,11 @@
 const web3 = require("./providers/httpProvider")();
 const networkConfig = require("./providers/config")
 const explorerURL = networkConfig['testNet'].explorer
+const envs = require('../validate-envs')()
 
 // add pk to wallet
-const privateKey = '0x0'
-const fromAddress = '0x0'
+const privateKey = envs.PK
+const fromAddress = envs.ADDR
 
 web3.eth.accounts.wallet.add(privateKey);
 
