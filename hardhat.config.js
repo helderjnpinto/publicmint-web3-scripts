@@ -3,6 +3,7 @@ const envs = require('./validate-envs')()
 
 const networkConfig = require("./src/providers/config")
 const networkToLoad = "testNet"
+// const networkToLoad = "mainNet"
 const config = networkConfig[networkToLoad]
 
 // This is a sample Hardhat task. To learn how to create your own go to
