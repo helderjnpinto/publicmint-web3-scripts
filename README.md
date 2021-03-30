@@ -1,6 +1,6 @@
 # publicmint-web3-scripts
 
-Scripts using only web3
+Scripts using only web3 and hardhat for deployment and testing purposes
 
 ## setup
 
